@@ -16,5 +16,7 @@ function hogya(){
         document.getElementById("print").innerHTML = firstNum / secondNum
     } else if(modulus){
         document.getElementById("print").innerHTML = firstNum % secondNum
+    } else {
+        document.getElementById("print").innerHTML = "Something went wrong "
     }
 }
